@@ -1,5 +1,5 @@
 export const SITE = {
-    website: "https://simple-portfolio.vicbox.dev", // replace this with your deployed domain
+    website: "https://www.stephenyamasaki.com/", // replace this with your deployed domain
     title: "Simple Portfolio",
     description: "A simple but beautiful portfolio created with Astro",
     tags: ["portfolio", "Resume cv", "Astro"],
@@ -8,27 +8,31 @@ export const SITE = {
     logoText: "Portfolio",
     lang: "en",
     favicon: "/favicon.png",
-    repository: "https://github.com/vito8916/simple-portfolio.git",
-    author: "Victor Alvarado",
-    profile: "https://victoralvarado.dev/",
+    repository: "https://github.com/StephenYamasaki/personal-site.git",
+    author: "Stephen Yamasaki",
+    profile: "https://www.stephenyamasaki.com/",
 }
 
 export const ME = {
     name: "VicBox Dot Dev",
     profession: "Software Engineer | Full Stack Developer",
-    profileImage: "pp2.png",
+    profileImage: "profile.png",
     profileFacts: [
         {
-            value: 10,
+            value: 4,
             description: "Years of Experience"
         },
         {
             value: 5,
-            description: "Completed Projects"
+            description: "Relevant Tools Learned"
         },
         {
             value: 4,
-            description: "Satisfied Clients"
+            description: "Different Positions"
+        },
+        {
+            value: 400000,
+            description: "Hearthstone Wins"
         }
     ],
     contactInfo: {
@@ -36,7 +40,7 @@ export const ME = {
         linkedin: "https://www.linkedin.com/in/victor-alvaradohn",
         resumeDoc: "resume.pdf",
     },
-    aboutMe: "I am a software engineer with a passion for web development. I have experience in building web " + "applications using modern technologies. I am a self-taught developer who enjoys learning new things and " + "sharing knowledge with others.",
+    aboutMe: "I am a god",
 }
 
 export const SOCIALS = [
