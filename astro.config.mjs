@@ -24,4 +24,6 @@ export default defineConfig({
     },
     experimental: {
         svg: true,
-    }});
+    },
+    outDir: './docs'
+});
