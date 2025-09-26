@@ -244,8 +244,8 @@ startDate: 2024-04-07
 endDate: 2024-04-09
 author: Victor Alvarado
 url: https://google.com
-cover: './images/pro-accountant/accnt.webp'
-ogImage: './images/pro-accountant/accnt.webp'
+cover: './images/award-stand/accnt.webp'
+ogImage: './images/award-stand/accnt.webp'
 ---
 ```
 If you plan to add images to the project, you should place them in the `src/content/projects/images/` directory.

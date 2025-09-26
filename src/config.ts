@@ -1,8 +1,8 @@
 export const SITE = {
     website: "https://www.stephenyamasaki.com/", // replace this with your deployed domain
-    title: "Simple Portfolio",
-    description: "A simple but beautiful portfolio created with Astro",
-    tags: ["portfolio", "Resume cv", "Astro"],
+    title: "Stephen Yamasaki's Portfolio",
+    description: "Portfolio and Resume for Stephen Yamasaki, mechanical engineer",
+    tags: ["portfolio", "Resume cv", "3D Modeling"],
     ogImage: "/og-image.webp",
     logo: "logo",
     logoText: "Portfolio",
@@ -14,33 +14,33 @@ export const SITE = {
 }
 
 export const ME = {
-    name: "VicBox Dot Dev",
-    profession: "Software Engineer | Full Stack Developer",
-    profileImage: "profile.png",
+    name: "Stephen Yamasaki",
+    profession: "Mechanical Engineer | CAD Modeler | 3D Printing Enthusiast",
+    profileImage: "stephenprofile.jpg",
     profileFacts: [
         {
             value: 4,
             description: "Years of Experience"
         },
-        {
-            value: 5,
-            description: "Relevant Tools Learned"
-        },
-        {
-            value: 4,
-            description: "Different Positions"
-        },
-        {
-            value: 400000,
-            description: "Hearthstone Wins"
-        }
+        // {
+        //     value: 5,
+        //     description: "Relevant Tools Learned"
+        // },
+        // {
+        //     value: 4,
+        //     description: "Different Positions"
+        // },
+        // {
+        //     value: 400000,
+        //     description: "Hearthstone Wins"
+        // }
     ],
     contactInfo: {
-        email: "vicbox.dev@vicbox.dev",
-        linkedin: "https://www.linkedin.com/in/victor-alvaradohn",
+        email: "steyamasaki@gmail.com",
+        linkedin: "https://www.linkedin.com/in/stephen-yamasaki",
         resumeDoc: "resume.pdf",
     },
-    aboutMe: "I am a god",
+    aboutMe: "I'm an engineer who focuses on design!",
 }
 
 export const SOCIALS = [
@@ -48,7 +48,7 @@ export const SOCIALS = [
         name: "Twitter",
         url: "https://twitter.com/vicbox.dev",
         icon: "twitter-x-fill",
-        show: true
+        show: false
     },
     {
         name: "Facebook",
@@ -60,13 +60,13 @@ export const SOCIALS = [
         name: "Instagram",
         url: "https://www.instagram.com/vicbox.dev",
         icon: "instagram-fill",
-        show: true
+        show: false
     },
     {
         name: "Youtube",
         url: "https://www.youtube.com/vicbox.dev",
         icon: "youtube-fill",
-        show: true
+        show: false
     },
     {
         name: "TikTok",
@@ -78,6 +78,6 @@ export const SOCIALS = [
         name: "GitHub",
         url: "https://github.com/vicbox.dev",
         icon: "github-fill",
-        show: true
+        show: false
     }
 ]
