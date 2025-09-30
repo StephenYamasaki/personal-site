@@ -1,5 +1,5 @@
-import { clsx, type ClassValue } from "clsx"
-import { twMerge } from "tailwind-merge"
+import { clsx, type ClassValue } from "clsx";
+import { twMerge } from "tailwind-merge";
 
 /**
  * Merges multiple class values into a single string and eliminates duplicates.
@@ -8,9 +8,8 @@ import { twMerge } from "tailwind-merge"
  * @return {string} - A single merged string of class names.
  */
 export function cn(...inputs: ClassValue[]) {
-  return twMerge(clsx(inputs))
+  return twMerge(clsx(inputs));
 }
-
 
 /**
  * Formats the given datetime value into a localized date string.
@@ -20,8 +19,8 @@ export function cn(...inputs: ClassValue[]) {
  */
 export const formatDatetime = (datetime: any) => {
   const d = new Date(datetime);
-  return d.toLocaleDateString('en-US', {
-    year: 'numeric',
-    month: 'short',
+  return d.toLocaleDateString("en-US", {
+    year: "numeric",
+    month: "short",
   });
 };

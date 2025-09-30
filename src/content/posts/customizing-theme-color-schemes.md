@@ -5,11 +5,10 @@ title: Customizing color schemes of Astro Simple Portfolio
 tags:
   - color-schemes
   - docs
-description:
-  A complete guide on how to customize user information in this Astro Simple Portfolio theme.
+description: A complete guide on how to customize user information in this Astro Simple Portfolio theme.
 cover:
-  src: './images/customizing-theme-color-schemes/cover.webp'
-  alt: 'Customizing color schemes'
+  src: "./images/customizing-theme-color-schemes/cover.webp"
+  alt: "Customizing color schemes"
 ---
 
 Astro Simple Portfolio provides a straightforward way to adapt to your system’s light and dark mode preferences. By default, when a user’s device is set to dark mode, the site will load in dark mode—otherwise, it displays in light mode.
@@ -35,8 +34,8 @@ By default, **Astro Simple Portfolio** detects your system preference using the 
 
 No extra toggle or button is included in this template—**the theme switch happens automatically** based on the user’s system settings.
 
-
 ## Updating Tailwind Config
+
 Tailwind uses color variables to define how your site looks in light and dark mode. You can modify these variables in tailwind.config.mjs. Below is an example snippet:
 
 ```js
@@ -58,26 +57,29 @@ colors: {
 'n500': '#555555',
 }
 ```
+
 ### Changing the Default Palette
+
 1. Choose which colors to modify
    - Want a new background color? Update light-theme or dark-theme.
    - Want to tweak highlights or accents? Change primary-light, primary-hover-light, primary-dark, and primary-hover-dark.
-   
 2. Replace the color values
    For instance, if your brand color is teal, you might set primary-light to #3AB7BF and primary-hover-light to #37A1A8.
 
 3. Save and rebuild
-Tailwind will regenerate the necessary utility classes when you save and restart your Astro development server.
+   Tailwind will regenerate the necessary utility classes when you save and restart your Astro development server.
 
 ---
 
 ## Testing Your Changes
+
 1. Local Development Preview
-Run your local dev server with npm run dev or yarn dev.
+   Run your local dev server with npm run dev or yarn dev.
+
    - Switch your system settings between light and dark mode to ensure the site updates automatically.
 
 2. Cross-Browser Checks
-Test your portfolio in multiple browsers (Chrome, Firefox, Safari, Edge) and devices (desktop, mobile) to confirm everything looks consistent.
+   Test your portfolio in multiple browsers (Chrome, Firefox, Safari, Edge) and devices (desktop, mobile) to confirm everything looks consistent.
 
 3. Accessibility & Contrast
    - Use tools like WebAIM Contrast Checker to verify your text has high enough contrast against the background.

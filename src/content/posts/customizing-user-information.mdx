@@ -5,11 +5,10 @@ title: Customizing User Information
 tags:
   - general
   - docs
-description:
-  A complete guide on how to customize user information in this Astro Simple Portfolio theme.
+description: A complete guide on how to customize user information in this Astro Simple Portfolio theme.
 cover:
-  src: './images/customizing-user-information/cover.webp'
-  alt: 'Customizing AstroPaper theme color schemes'
+  src: "./images/customizing-user-information/cover.webp"
+  alt: "Customizing AstroPaper theme color schemes"
 ---
 
 If you’re looking to personalize your Simple Portfolio with Astro Build, one of the first things you’ll want to do is change the default user information. By editing a few fields, you can make the portfolio entirely your own. This quick guide will show you exactly how to do that.
@@ -17,7 +16,7 @@ If you’re looking to personalize your Simple Portfolio with Astro Build, one o
 ---
 
 1. ## Locate the Configuration File
-All the user information you need to update is found in one place:
+   All the user information you need to update is found in one place:
 
 File: src/config.ts
 Object Name: ME
@@ -25,35 +24,39 @@ Open src/config.ts in your preferred code editor, and look for the exported ME o
 
 ```js
 export const ME = {
-    name: "John Doe",
-    profession: "Software Engineer | Full Stack Developer",
-    profileImage: "pp.png",
-    profileFacts: [
-        {
-            value: 10,
-            description: "Years of Experience"
-        },
-        {
-            value: 5,
-            description: "Completed Projects"
-        },
-        {
-            value: 4,
-            description: "Satisfied Clients"
-        }
-    ],
-    contactInfo: {
-        email: "vicbox.dev@vicbox.dev",
-        linkedin: "https://www.linkedin.com/in/victor-alvaradohn",
-        resumeDoc: "resume.pdf",
+  name: "John Doe",
+  profession: "Software Engineer | Full Stack Developer",
+  profileImage: "pp.png",
+  profileFacts: [
+    {
+      value: 10,
+      description: "Years of Experience",
     },
-    aboutMe: "I am a software engineer with a passion for web development. I have experience in building web " + "applications using modern technologies. I am a self-taught developer who enjoys learning new things and " + "sharing knowledge with others.",
-}
+    {
+      value: 5,
+      description: "Completed Projects",
+    },
+    {
+      value: 4,
+      description: "Satisfied Clients",
+    },
+  ],
+  contactInfo: {
+    email: "vicbox.dev@vicbox.dev",
+    linkedin: "https://www.linkedin.com/in/victor-alvaradohn",
+    resumeDoc: "resume.pdf",
+  },
+  aboutMe:
+    "I am a software engineer with a passion for web development. I have experience in building web " +
+    "applications using modern technologies. I am a self-taught developer who enjoys learning new things and " +
+    "sharing knowledge with others.",
+};
 ```
+
 ---
 
 2. ## Update Your Basic Information
-Within the ME object, you’ll see several properties. Simply replace the default values with your own:
+   Within the ME object, you’ll see several properties. Simply replace the default values with your own:
 
 - name: Your full name or preferred display name.
 - profession: Your job title, role, or specialty (e.g., “Web Developer,” “Data Scientist,” etc.).
@@ -68,12 +71,13 @@ export const ME = {
   profession: "Frontend Developer & UI/UX Designer",
   profileImage: "myProfilePic.png",
   //...
-  aboutMe: "I am a passionate frontend developer with a keen eye for design. I love transforming..."
+  aboutMe:
+    "I am a passionate frontend developer with a keen eye for design. I love transforming...",
 };
 ```
 
 3. ## Customize the Profile Facts
-The profileFacts array is designed to showcase highlights such as years of experience, completed projects, or any other metrics you want to feature. Each fact has two fields:
+   The profileFacts array is designed to showcase highlights such as years of experience, completed projects, or any other metrics you want to feature. Each fact has two fields:
 
 value: The numerical figure (e.g., 10, 5, 4).
 description: A short text explaining what that number represents.
@@ -85,22 +89,22 @@ export const ME = {
   profileFacts: [
     {
       value: 10,
-      description: "Years of Experience"
+      description: "Years of Experience",
     },
     {
       value: 5,
-      description: "Completed Projects"
+      description: "Completed Projects",
     },
     {
       value: 4,
-      description: "Satisfied Clients"
-    }
-  ]
+      description: "Satisfied Clients",
+    },
+  ],
 };
 ```
 
 4. ## Update Your Contact Information
-If you want to include a contact form or social media links, you can update the contactInfo object. Simply replace the default values with your own:
+   If you want to include a contact form or social media links, you can update the contactInfo object. Simply replace the default values with your own:
 
 - email: Your email address.
 - linkedin: Your LinkedIn profile URL.
@@ -114,20 +118,22 @@ export const ME = {
   contactInfo: {
     email: "jane.doe@example.com",
     linkedin: "https://www.linkedin.com/in/jane-doe",
-    resumeDoc: "resume.pdf"
-  }
+    resumeDoc: "resume.pdf",
+  },
 };
 ```
 
 5. ## Customize the About Me Section
-The aboutMe property is a free-form text field that allows you to share a brief bio or summary of your background, interests, and expertise. Feel free to update this text to reflect your personality and experiences.
+
+   The aboutMe property is a free-form text field that allows you to share a brief bio or summary of your background, interests, and expertise. Feel free to update this text to reflect your personality and experiences.
 
 6. ## Save Your Changes
-Once you’ve made your updates, save the file and test your portfolio to ensure everything looks as expected. If you encounter any issues, don’t hesitate to reach out for help.
+   Once you’ve made your updates, save the file and test your portfolio to ensure everything looks as expected. If you encounter any issues, don’t hesitate to reach out for help.
 
 ---
 
 ## Conclusion
+
 Customizing your Simple Portfolio with Astro Build is as easy as editing one configuration file. By updating the ME object in src/config.ts, you can quickly tailor the entire site to reflect your personal brand and professional experience.
 
 Feel free to get creative—add new facts, change images, and include links to all your social platforms. With just a few tweaks, you’ll have a portfolio that shows off your work in a polished, professional way.

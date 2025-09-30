@@ -19,7 +19,7 @@ Inside of this project, you'll see the following folders and files:
 └── tsconfig.json
 ```
 
-This theme looks for `.md` or `.mdx` files in the `src/content/posts/` and  `src/content/projects/` directory. Each file is exposed as a route based on its file name.
+This theme looks for `.md` or `.mdx` files in the `src/content/posts/` and `src/content/projects/` directory. Each file is exposed as a route based on its file name.
 
 Images can be added to `src/assets/` and embedded in Markdown with a relative link.
 
