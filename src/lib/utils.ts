@@ -7,7 +7,7 @@ import { twMerge } from "tailwind-merge";
  * @param {...ClassValue[]} inputs - An array of class values which could be strings, arrays, or objects.
  * @return {string} - A single merged string of class names.
  */
-export function cn(...inputs: ClassValue[]) {
+export function cn(...inputs: ClassValue[]): string {
   return twMerge(clsx(inputs));
 }
 
@@ -17,7 +17,7 @@ export function cn(...inputs: ClassValue[]) {
  * @param {any} datetime - The datetime value to be formatted. This can be any value that can be parsed by the JavaScript Date object.
  * @returns {string} - A string representing the formatted date in 'en-US' locale, displaying the year and short month.
  */
-export const formatDatetime = (datetime: any) => {
+export const formatDatetime = (datetime: any): string => {
   const d = new Date(datetime);
   return d.toLocaleDateString("en-US", {
     year: "numeric",
