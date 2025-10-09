@@ -15,7 +15,7 @@ export async function getStaticPaths() {
 }
 
 const { post } = Astro.props;
-const { title, summary, tags, cover, ogImage, url } = post.data;
+const { title, summary, tags, cover, ogImage, url: _url } = post.data;
 
 const { Content } = await render(post);
 
