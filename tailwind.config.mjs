@@ -9,7 +9,7 @@ export default {
         sm: "100%",
         md: "100%",
         lg: "520px",
-        xl: "620px",
+        xl: "800px",
       },
       padding: "2rem",
     },
