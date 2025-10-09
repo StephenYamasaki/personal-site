@@ -17,24 +17,6 @@ export const ME = {
   name: "Stephen Yamasaki",
   profession: "Mechanical Engineer | CAD Modeler | 3D Printing Enthusiast",
   profileImage: "stephenprofile.jpg",
-  profileFacts: [
-    // {
-    //   value: 4,
-    //   description: "Years of Experience",
-    // },
-    // {
-    //     value: 5,
-    //     description: "Relevant Tools Learned"
-    // },
-    // {
-    //     value: 4,
-    //     description: "Different Positions"
-    // },
-    // {
-    //     value: 400000,
-    //     description: "Hearthstone Wins"
-    // }
-  ],
   contactInfo: {
     email: "steyamasaki@gmail.com",
     linkedin: "https://www.linkedin.com/in/stephen-yamasaki",
