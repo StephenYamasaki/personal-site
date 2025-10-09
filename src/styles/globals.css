@@ -7,6 +7,10 @@
   }
 }
 
+html {
+  font-size: 1.125rem;
+}
+
 main {
   @apply flex-grow;
 }

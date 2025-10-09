@@ -44,21 +44,22 @@ interface WorkExperience {
  */
 const workExperience: WorkExperience[] = [
   {
-    title: "Frontend Developer",
-    startDate: "2020-03-10",
-    company: "Google Inc",
-    location: "United States",
+    title: "Undergraduate Research Assistant",
+    startDate: "2021-09-28",
+    endDate: "2025-04-25",
+    company: "Oregon State University",
+    location: "Corvallis, Oregon",
     description:
       "Developed and maintained web applications using React, NextJs, and Tailwind CSS.",
     goals: [
-      "Developed and maintained web applications using React, NodeJs, and MongoDB.",
-      "Worked with the team to develop and maintain web applications using React, NodeJs, and MongoDB.",
-      "Created and maintained web applications using React, NodeJs, and MongoDB.",
+      "Designed and edited liquid sodium cooling systems using Siemens NX.",
+      "Tested, reconfigured, and maintained thermal hydraulic test facilities.",
+      "Analyzed critical heat flux in nuclear reactor cooling by writing MATLAB code.",
     ],
-    currentJob: true,
+    currentJob: false,
   },
   {
-    title: "Software Engineer",
+    title: "Product Designer",
     startDate: "2018-03-10",
     endDate: "2020-03-10",
     company: "Company Name",

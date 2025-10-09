@@ -18,10 +18,10 @@ export const ME = {
   profession: "Mechanical Engineer | CAD Modeler | 3D Printing Enthusiast",
   profileImage: "stephenprofile.jpg",
   profileFacts: [
-    {
-      value: 4,
-      description: "Years of Experience",
-    },
+    // {
+    //   value: 4,
+    //   description: "Years of Experience",
+    // },
     // {
     //     value: 5,
     //     description: "Relevant Tools Learned"

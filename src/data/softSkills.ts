@@ -20,6 +20,11 @@ const softSkills: SoftSkill[] = [
     name: "Time Management",
     icon: "time-fill",
   },
+
+  {
+    name: "Design of Experiments",
+    icon: "time-fill",
+  },
 ];
 
 export default softSkills;
