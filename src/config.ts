@@ -4,7 +4,7 @@ export const SITE = {
   description: "Portfolio and Resume for Stephen Yamasaki, mechanical engineer",
   tags: ["portfolio", "Resume cv", "3D Modeling"],
   ogImage: "/og-image.webp",
-  logo: "logo",
+  logo: "logo.png",
   logoText: "Portfolio",
   lang: "en",
   favicon: "/favicon.png",
