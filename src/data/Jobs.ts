@@ -50,13 +50,26 @@ const workExperience: WorkExperience[] = [
     company: "Oregon State University",
     location: "Corvallis, Oregon",
     description:
-      "Developed and maintained web applications using React, NextJs, and Tailwind CSS.",
+      "sample test text",
     goals: [
       "Designed and edited liquid sodium cooling systems using Siemens NX.",
       "Tested, reconfigured, and maintained thermal hydraulic test facilities.",
       "Analyzed critical heat flux in nuclear reactor cooling by writing MATLAB code.",
     ],
     currentJob: false,
+  },
+  {
+    title: "CAD Modeling Instuctor",
+    startDate: "2025-12-1",
+    endDate: "Present",
+    company: "PDX Mini Makers",
+    location: "United States",
+    description:
+      "sample text test",
+    goals: [
+      "Taught 3rd-8th graders 3D modeling and 3D printing principles. Managed weekly project printing logistics for 35+ kids.",
+    ],
+    currentJob: true,
   },
   {
     title: "Product Designer",
