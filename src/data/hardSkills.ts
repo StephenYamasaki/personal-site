@@ -9,7 +9,7 @@ const hardSkills: HardSkill[] = [
     name: "OnShape",
     description:
       "I have used OnShape for 3d printing parts.",
-    icon: "astro_dark",
+    icon: "onshape",
   },
   {
     name: "Siemens NX",
